@@ -197,6 +197,58 @@
                     "amount": -0.5
                 }
             ]
+        },
+        {
+            "question": "Avez vous un ou plusieurs tableau chez vous ?",
+            "answers": [
+                {
+                    "label": "Un",
+                    "amount": -0.25
+                }, {
+                    "label": "Plusieurs",
+                    "amount": 0.5
+                }, {
+                    "label": "Aucun",
+                    "amount": -0.1
+                }
+            ]
+        },
+        {
+            "question": "Quel est le métier de votre père",
+            "answers": [
+                {
+                    "label": "Voleur",
+                    "amount": 0.5
+                }, {
+                    "label": "Gay",
+                    "amount": 0.15
+                }, {
+                    "label": "Plombier",
+                    "amount": 0.2
+                }, {
+                    "label": "Président de la République",
+                    "amount": -0.1
+                },
+                {
+                    "label": "Militaire",
+                    "amount": 0.9
+               }
+            ]
+        },
+        {
+            "question": "Faites vous le Movember",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.8
+                }, {
+                    "label": "Non",
+                    "amount": -0.25
+                }, {
+                    "label": "Je n'ai pas de moustache",
+                    "amount": 0.2
+                }
+            ]
         }
 
     ]

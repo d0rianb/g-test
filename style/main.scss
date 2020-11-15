@@ -1,0 +1,110 @@
+@import 'variables.scss';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  background-color: $background-color;
+  max-width: 90vw;
+  padding: 2em;
+  min-height: 80vh;
+
+  @media screen and (max-width: 640px) {
+    padding: 0.5em;
+  }
+
+  .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 0.25em;
+
+  }
+
+  .source {
+    font-size: 0.9em;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .score {
+    padding: 0.5em;
+  }
+
+  .question {
+    font-weight: 400;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: justify;
+    white-space: normal;
+    width: 90%;
+    border-radius: $round-radius;
+    box-shadow: $default-shadow;
+    background-color: darken($background-color, 10%);
+
+    .label {
+      font-weight: bold;
+    }
+  }
+
+  .answers {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    align-self: flex-end;
+  }
+
+  .answer {
+    margin: 0.5em 1em;
+    padding: 1.25em;
+    text-align: center;
+    color: #fff;
+    box-shadow: $default-shadow;
+    border-radius: $round-radius;
+    background-color: $accent-color;
+    user-select: none;
+    cursor: pointer;
+
+    &:not(.valid):not(.invalid):hover {
+      background-color: lighten($accent-color, 5%);
+      box-shadow: $accent-shadow;
+    }
+
+  }
+
+  .end-screen {
+    height: 90%;
+
+    .text {
+      font-size: 1.3em;
+      text-align: center;
+      padding: 1.5em 0.25em;
+    }
+  }
+}
+
+#header {
+  .title {
+    color: $text-color;
+  }
+}

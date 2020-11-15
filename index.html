@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Gay test</title>
+  <link rel="stylesheet" href="style/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <main>
+    <div id="app">
+      <div v-if="!finished">
+        <div class="title">Test d'homosexualité <span class="source">(Approuvé par le CNRS)</span></div>
+        <div class="score">Score : <b>{{ score| formatFloat }}%</b></div>
+        <div class="question">
+          {{ question }}
+        </div>
+        <div class="answers">
+          <div v-for="answer in answers" class="answer" @click="calcScore" :data-amount="answer.amount">
+            {{ answer.label }}
+          </div>
+        </div>
+      </div>
+      <div v-else class="end-screen">
+        <div class="title">Test d'homosexualité <span class="source">(Approuvé par le CNRS)</span></div>
+        <div v-if="score>0" class="text"><b>Bravo :</b> Vous êtes {{ score | formatFloat }}% homosexuel</div>
+        <div v-else class="text"><b>Dommage,</b> vous n'êtes pas trop homosexuel ({{ score | formatFloat }}%)</div>
+      </div>
+    </div>
+    <script src="./src/app.js" charset="utf-8"></script>
+  </main>
+</body>
+
+</html>

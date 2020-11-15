@@ -1,0 +1,203 @@
+{
+    "ressources": [
+        {
+            "question": "Quelle est votre acteur porno préféré ? ",
+            "answers": [
+                {
+                    "label": "Manuel Ferrara",
+                    "amount": -0.25
+                }, {
+                    "label": "Rocco Siffredi",
+                    "amount": -0.25
+                }, {
+                    "label": "Nikita Belluci",
+                    "amount": 0.25
+                }, {
+                    "label": "Je ne suis pas gay",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "question": "Suivez vous @emrata sur Instagram ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": -0.5
+                }, {
+                    "label": "Non",
+                    "amount": 0.5
+                }
+            ]
+        },
+        {
+            "question": "Sexe ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": -0.5
+                }, {
+                    "label": "Non",
+                    "amount": 0.5
+                }
+            ]
+        },
+        {
+            "question": "Vous essuyer vous la bite après avoir pissé ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 1
+                }, {
+                    "label": "Non",
+                    "amount": -0.75
+                }
+            ]
+        },
+        {
+            "question": "Mangez vous du bio/sans gluten ou pire : êtes vous végétarien ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 1
+                }, {
+                    "label": "Non",
+                    "amount": -0.75
+                }
+            ]
+        },
+        {
+            "question": "Faites vous du rugby ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.5
+                }, {
+                    "label": "Non",
+                    "amount": -0.25
+                }
+            ]
+        },
+        {
+            "question": "Regardez vous le sport féminin ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.55
+                }, {
+                    "label": "Non",
+                    "amount": -0.35
+                }
+            ]
+        },
+        {
+            "question": "Faites vous de la natation ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.15
+                }, {
+                    "label": "Non",
+                    "amount": -0
+                }
+            ]
+        },
+        {
+            "question": "Portez vous des jean slim ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.95
+                }, {
+                    "label": "Non",
+                    "amount": -0.35
+                }
+            ]
+        },
+        {
+            "question": "Ecoutez vous Aya Nakamura/Michael Jackson ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": -0.15
+                }, {
+                    "label": "Non",
+                    "amount": 0.85
+                }
+            ]
+        },
+        {
+            "question": "Ecoutez vous les Village People ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 1
+                }, {
+                    "label": "Non",
+                    "amount": -0
+                }
+            ]
+        },
+        {
+            "question": "Que pensez vous de Cédric Villani ?",
+            "answers": [
+                {
+                    "label": "C'est un bon gars",
+                    "amount": -0.25
+                }, {
+                    "label": "Il ferait un bien bel acteur",
+                    "amount": -0.15
+                }, {
+                    "label": "Il ferait un bien bel acteur porno",
+                    "amount": 0.25
+                }, {
+                    "label": "C'est un con",
+                    "amount": 0.8
+                }, {
+                    "label": "Je ne suis pas gay",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "question": "Etes vous plus raciste ou xénophobe ?",
+            "answers": [
+                {
+                    "label": "Raciste",
+                    "amount": 0.15
+                }, {
+                    "label": "Xénophobe",
+                    "amount": 0.15
+                }, {
+                    "label": "Ni l'un ni l'autre",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "question": "Avez vous déja relooké votre prof de latin en 1ère/terminale ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": -0.75
+                }, {
+                    "label": "Non",
+                    "amount": 0.75
+                }
+            ]
+        },
+        {
+            "question": "Vous êtes vous déjà regardé dans le miroir ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.5
+                }, {
+                    "label": "Non",
+                    "amount": -0.5
+                }
+            ]
+        }
+
+    ]
+}

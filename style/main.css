@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  background-color: #eee;
+  max-width: 90vw;
+  padding: 2em;
+  min-height: 80vh;
+}
+@media screen and (max-width: 640px) {
+  #app {
+    padding: 0.5em;
+  }
+}
+#app .title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em 0.25em;
+}
+#app .source {
+  font-size: 0.9em;
+  font-weight: 300;
+  font-style: italic;
+}
+#app .score {
+  padding: 0.5em;
+}
+#app .question {
+  font-weight: 400;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: justify;
+  white-space: normal;
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #a5a5a599;
+  background-color: #d5d5d5;
+}
+#app .question .label {
+  font-weight: bold;
+}
+#app .answers {
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  align-self: flex-end;
+}
+#app .answer {
+  margin: 0.5em 1em;
+  padding: 1.25em;
+  text-align: center;
+  color: #fff;
+  box-shadow: 1px 1px 1px 1px #a5a5a599;
+  border-radius: 5px;
+  background-color: #3f51b5;
+  user-select: none;
+  cursor: pointer;
+}
+#app .answer:not(.valid):not(.invalid):hover {
+  background-color: #4d5ec1;
+  box-shadow: 1px 1px 3px 2px #8a8a8a70;
+}
+#app .end-screen {
+  height: 90%;
+}
+#app .end-screen .text {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 1.5em 0.25em;
+}
+
+#header .title {
+  color: #000;
+}
+
+/*# sourceMappingURL=main.css.map */

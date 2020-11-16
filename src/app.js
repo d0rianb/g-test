@@ -21,7 +21,7 @@ let app = new Vue({
         indexList: [],
         currentIndex: 0,
         score: 0,
-        scoreMultiplier: NB_QUESTIONS
+        scoreMultiplier: 100 / NB_QUESTIONS
     },
     filters: {
         formatFloat(number) {
@@ -30,7 +30,7 @@ let app = new Vue({
     },
     computed: {
         finished() {
-            return !(this.currentIndex < NB_QUESTIONS - 1)
+            return !(this.currentIndex <= NB_QUESTIONS - 1)
         }
     },
     mounted() {
@@ -57,7 +57,6 @@ let app = new Vue({
                 this.scoreMultiplier -= 1
             }
             this.scoreMultiplier = clamp(this.scoreMultiplier, NB_QUESTIONS - 3, NB_QUESTIONS + 4)
-
             this.nextQuestion()
         },
         nextQuestion() {

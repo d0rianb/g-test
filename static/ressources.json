@@ -55,6 +55,9 @@
                 }, {
                     "label": "Non",
                     "amount": -0.75
+                }, {
+                    "label": "Je n'ai pas de bite",
+                    "amount": 1.25
                 }
             ]
         },

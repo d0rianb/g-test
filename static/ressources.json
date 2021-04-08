@@ -221,7 +221,7 @@
             ]
         },
         {
-            "question": "Quel est le métier de votre père",
+            "question": "Quel est le métier de votre père ?",
             "answers": [
                 {
                     "label": "Voleur",
@@ -243,7 +243,7 @@
             ]
         },
         {
-            "question": "Faites vous le Movember",
+            "question": "Faites vous le Movember ?",
             "answers": [
                 {
                     "label": "Oui",
@@ -256,7 +256,109 @@
                     "amount": 0.2
                 }
             ]
+        },
+        {
+            "question": "Connaissez-vous votre signe astrologique ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.5
+                }, {
+                    "label": "Je connais même mon ascendant",
+                    "amount": 0.8
+                },
+                {
+                    "label": "Non",
+                    "amount": -0.25
+                }, {
+                    "label": "Je n'ai pas de signe astrologique",
+                    "amount": 0.4
+                }
+            ]
+        },
+        {
+            "question": "Faites vous du vélo ?",
+            "answers": [
+                {
+                    "label": "Oui",
+                    "amount": 0.3
+                },
+                {
+                    "label": "Non",
+                    "amount": -0.2
+                }, {
+                    "label": "Je ne suis pas une pédale",
+                    "amount": 0.9
+                }
+            ]
+        },
+        {
+            "question": "Avez-vous un(e) mec/meuf",
+            "answers": [
+                {
+                    "label": "Un mec",
+                    "amount": 0.75
+                },
+                {
+                    "label": "Une meuf",
+                    "amount": -0.5
+                }, {
+                    "label": "Ni l'un ni l'autre",
+                    "amount": 0.25
+                },
+                {
+                    "label": "C'est compliqué",
+                    "amount": 1.25
+                }
+            ]
+        },
+        {
+            "question": "Quel est votre orientation sexuelle ?",
+            "answers": [
+                {
+                    "label": "Hétéro",
+                    "amount": 0.3
+                },
+                {
+                    "label": "Gay",
+                    "amount": -0.3
+                }, {
+                    "label": "Bisexuelle",
+                    "amount": 0.25
+                },
+                {
+                    "label": "Normal",
+                    "amount": 1.1
+                },
+                {
+                    "label": "Autre",
+                    "amount": -0.3
+                }
+            ]
+        },
+        {
+            "question": "Vous préferrez ?",
+            "answers": [
+                {
+                    "label": "L'amour",
+                    "amount": -0.2
+                },
+                {
+                    "label": "L'argent",
+                    "amount": -0.2
+                }, {
+                    "label": "Le sexe",
+                    "amount": -0.25
+                },
+                {
+                    "label": "L'argent",
+                    "amount": 0.2
+                },
+                {
+                    "label": "La sodomie",
+                    "amount": 0.9
+                }
+            ]
         }
-
     ]
 }
